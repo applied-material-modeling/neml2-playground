@@ -1,0 +1,3 @@
+[submodule "neml2"]
+	path = neml2
+	url = git@github.com:applied-material-modeling/neml2.git
