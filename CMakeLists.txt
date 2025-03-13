@@ -4,5 +4,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(training playground/main.cxx)
+set(NEML2_WORK_DISPATCHER OFF)
 add_subdirectory(neml2)
 target_link_libraries(training neml2)
