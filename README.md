@@ -8,7 +8,7 @@ There are a few ways you could setup the requirements for compiling the library 
 
 ```
 conda create -n neml2
-conda activate neml2-playground
+conda activate neml2
 conda install python==3.12 cmake ninja clang-format
 
 git clone --recursive https://github.com/applied-material-modeling/neml2-playground
